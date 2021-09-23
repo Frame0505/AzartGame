@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="img/kisspng-cyberpunk-2077-logo-game-electronic-entertainment-cyberpunk-2077-logo-5b4b606e264d14.7015596215316665421569.png" alt="" width="250px" height="100px">
+    </div>
+    <div class="body">
+      <a href="index.html">Главная</a>
+      <a href="up.html">Пополнить</a>
+      <a href="conclusion.html">Вывод</a>
+    </div>
+    <div class="profile"></div>
+  </header>
+
+  <div class="main">
+    <h2>Выберете число от 1 до 100:</h2>
+
+    <div class="number">
+      <label for="full-name">Шанс:</label>
+      <input id="chance" autocomplete="off" value="50" readonly>
+      <label for="full-name">Сумма:</label>
+      <input class="sum" autocomplete="off" value="1">
+    </div>
+
+    <button id="play">Играть!</button>
+    <div id="random">Число которое вам выпало:</div>
+
+    <div class="question">
+      <h1>Как играть?</h1>
+      <p>Выберете сумму ставки. Если вам выпадает число меньше 50 - вы проиграли. Больше 50 - выйграли и получаете сумму в 2x раза больше. Красным цветом обозначино число которое вам выпало в ходе игры.</p>
+      <p>Удачных игр тебе!</p>
+    </div>
+  </div>
+
+  <script src="js.js"></script>
+</body>
+</html>

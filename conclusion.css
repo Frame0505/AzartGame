@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(img/9b8651c0baeaaea3e22b13e8ca2712c8d98abaa0r1-1920-1080v2_uhq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    opacity: 70%;
+  }
+  
+  .body a {
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+  }
+  
+  .body a:hover {
+    color: orangered;
+  }
+  
+  .profile {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .main {
+    width: 800px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    overflow: auto;
+    color: #fff;
+    text-align: center;
+  }
+
+  .qiwi {
+    border-radius: 15px;
+    border: 3px solid orange;
+    cursor: pointer;
+    transition: .4s;
+  }
+
+  .qiwi:hover {
+    border: 3px solid purple;
+  }
+
+  button {
+    margin-top: 15px;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #000;
+    opacity: 80%;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: .4s;
+  }
+
+  button:hover {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #fff;
+    cursor: pointer;
+  }
